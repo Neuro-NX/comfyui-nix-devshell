@@ -1,0 +1,63 @@
+{
+  "id": "night",
+  "name": "Night",
+  "colors": {
+    "node_slot": {
+      "CLIP": "#2ab7cab0",
+      "CLIP_VISION": "#6c70c440",
+      "CLIP_VISION_OUTPUT": "#85990070",
+      "CONDITIONING": "#d3368260",
+      "CONTROL_NET": "#d1ffd780",
+      "IMAGE": "#5940bb60",
+      "LATENT": "#268ad260",
+      "MASK": "#ccc9e760",
+      "MODEL": "#dc322f70",
+      "STYLE_MODEL": "#1a998a50",
+      "UPSCALE_MODEL": "#054a2970",
+      "VAE": "#facead60"
+    },
+    "litegraph_base": {
+      "CLEAR_BACKGROUND_COLOR": "#15181a",
+      "NODE_TITLE_COLOR": "#aeafa7",
+      "NODE_SELECTED_TITLE_COLOR": "#ffffff",
+      "NODE_TEXT_COLOR": "#657b83",
+      "NODE_DEFAULT_COLOR": "#19191b",
+      "NODE_DEFAULT_BGCOLOR": "#111112",
+      "NODE_DEFAULT_BOXCOLOR": "#839496",
+      "NODE_DEFAULT_SHAPE": 2,
+      "NODE_SUBTEXT_SIZE": 14,
+      "NODE_TEXT_SIZE": 14,
+      "NODE_BOX_OUTLINE_COLOR": "#2987ffff",
+      "NODE_BYPASS_BGCOLOR": "#FF00FF",
+      "NODE_ERROR_COLOUR": "#b12e2e",
+      "DEFAULT_SHADOW_COLOR": "rgba(0,0,0,0.5)",
+      "WIDGET_BGCOLOR": "#292c2f79",
+      "WIDGET_OUTLINE_COLOR": "#292c2f79",
+      "WIDGET_TEXT_COLOR": "#939398",
+      "WIDGET_SECONDARY_TEXT_COLOR": "#166891",
+      "WIDGET_DISABLED_TEXT_COLOR": "#657b83",
+      "LINK_COLOR": "#2aa19770",
+      "EVENT_LINK_COLOR": "#268bd2",
+      "CONNECTING_LINK_COLOR": "#859900"
+    },
+    "comfy_base": {
+      "fg-color": "#c5c2ba",
+      "bg-color": "#222",
+      "comfy-menu-bg": "#222",
+      "comfy-menu-secondary-bg": "#222",
+      "comfy-input-bg": "#1a1a1a70",
+      "input-text": "#939398",
+      "descrip-text": "#8b97a6",
+      "drag-text": "#839496",
+      "error-text": "#dc322f",
+      "border-color": "#657b83",
+      "tr-even-bg-color": "#222",
+      "tr-odd-bg-color": "#222",
+      "content-bg": "#657b83",
+      "content-fg": "#c5c2ba",
+      "content-hover-bg": "#002b36",
+      "content-hover-fg": "#c5c2ba",
+      "bar-shadow": "rgba(16, 16, 16, 0.5) 0 0 0.5rem"
+    }
+  }
+}
