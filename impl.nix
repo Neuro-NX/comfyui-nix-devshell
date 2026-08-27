@@ -39,6 +39,7 @@ pkgs.mkShell rec {
     with pkgs;
     hardware_deps
     ++ [
+      uv # Python pkg manager called by some nodes (Disable with "use_uv = False" in user/default/config.ini)
       git # The program instantly crashes if git is not present, even if everything is already downloaded
       (python312.withPackages (
         p: with p; [
@@ -63,6 +64,8 @@ pkgs.mkShell rec {
       libGL
       glib
       zstd
+      libxcb
+      sqlite
     ];
 
   venvDir = ".venv";
@@ -93,5 +96,10 @@ pkgs.mkShell rec {
       export PIP_EXTRA_INDEX_URL="https://pypi.org/simple"
       echo "ROCm devshell: pip will pull torch/vision/audio wheels from ${rocmIndexUrl}"
       echo "If you previously installed CUDA wheels, run 'rm -rf ${venvDir}' before reinstalling requirements."
+    ''
+    + ''
+      runHook venvShellHook
+      # Add commands to run immediately after it builds
+      # such as running the server.
     '';
 }
