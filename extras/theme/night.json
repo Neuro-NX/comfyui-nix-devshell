@@ -1,6 +1,7 @@
 {
   "id": "night",
   "name": "Night",
+  "light_theme": false,
   "colors": {
     "node_slot": {
       "CLIP": "#2ab7cab0",
@@ -21,6 +22,7 @@
       "NODE_TITLE_COLOR": "#aeafa7",
       "NODE_SELECTED_TITLE_COLOR": "#ffffff",
       "NODE_TEXT_COLOR": "#657b83",
+      "NODE_TEXT_HIGHLIGHT_COLOR": "#9bf0d1",
       "NODE_DEFAULT_COLOR": "#19191b",
       "NODE_DEFAULT_BGCOLOR": "#111112",
       "NODE_DEFAULT_BOXCOLOR": "#839496",
@@ -41,6 +43,8 @@
       "CONNECTING_LINK_COLOR": "#859900"
     },
     "comfy_base": {
+      "interface-button-hover-surface": "#16689174",
+      "interface-panel-surface": "#464646",
       "fg-color": "#c5c2ba",
       "bg-color": "#222",
       "comfy-menu-bg": "#222",
